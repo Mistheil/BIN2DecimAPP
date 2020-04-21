@@ -14,5 +14,22 @@ public class DecBinDefine {
         System.out.println("Nilai binernya = ");
         for (int j = i - 1; j >= 0; j--) 
             {System.out.print(binaryNum[j]);  }
+
     } 
+     public void Decimal_Binary() {
+        int bener = 0;
+        while (bener == 0){
+            System.out.println("Masukkan nilai biner diantara 1-255!");
+            int decimal = 0;
+            decimal = input.nextInt();
+            if (decimal > 0 && decimal < 255) {
+             bener = 1;
+             System.out.println("Nilainya : " + decimal + "\n");
+             System.out.println("Calculating...\n");
+             convert(decimal);
+             System.out.println("\n"); }
+            else { System.out.println("Input yang kamu masukkan salah!"); }
+        }
+
+    }
 }
