@@ -14,7 +14,5 @@ public class DecBinDefine {
         System.out.println("Nilai binernya = ");
         for (int j = i - 1; j >= 0; j--) 
             {System.out.print(binaryNum[j]);  }
-
     } 
-
 }
