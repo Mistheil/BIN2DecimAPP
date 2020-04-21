@@ -82,3 +82,4 @@ public class BinDecDefine{
         bener = 0;
         for (bener = 0 ; bener <7 ; bener++){ binary[bener] = 0;}
     }
+}
