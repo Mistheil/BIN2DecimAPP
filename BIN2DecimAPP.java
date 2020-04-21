@@ -27,8 +27,6 @@ public class BIN2DecimAPP {
                  if (pilih.equals("2")){bener = 1; object.Decimal_Binary();}
                  else {System.out.println("Inputmu salah!");}
                 }
-
         }
-
     }
 }
